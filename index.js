@@ -2,7 +2,6 @@
 
 var http = require('http')
 var path = require('path')
-var chalk = require('chalk')
 var express = require('express')
 var fs = require('fs')
 var request = require('request')
@@ -137,6 +136,5 @@ var server = http.createServer(app)
 
 server.listen(PORT, function (err) {
   if (err) console.error(err)
-  console.log('\n  bitcoin-faucet listening on port %s', chalk.blue.bold(PORT))
-  console.log('  deposit funds to: %s', chalk.green.bold(address))
+  console.log("Listening");
 })
