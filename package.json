@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/gertjaap/vertcoin-faucet",
   "dependencies": {
-    "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib",
+    "bitcoinjs-lib": "^3.3.2",
     "express": "^4.12.3",
     "qrcode": "^1.2.0",
     "request": "^2.83.0"

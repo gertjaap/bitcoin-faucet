@@ -19,7 +19,7 @@ var vertcoinNetwork = {
 };
 
 var usedAddresses = [];
-var PORT = process.env.FAUCET_PORT || process.env.PORT || 14004
+var PORT = process.env.FAUCET_PORT || process.env.PORT || 3000
 
 var privkey = process.env.PRIVKEY
 
