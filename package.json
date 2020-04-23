@@ -1,7 +1,7 @@
 {
   "name": "vertcoin-faucet",
-  "version": "0.2.0",
-  "description": "Easy Vertcoin faucet to help with testing applications.",
+  "version": "0.3.0",
+  "description": "Easy Vertcoin testnet faucet to help with testing applications.",
   "main": "index.js",
   "scripts": {
     "test": "standard",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gertjaap/vertcoin-faucet"
+    "url": "https://github.com/vertcoin-project/vertcoin-faucet"
   },
   "keywords": [
     "bitcoin",
@@ -21,17 +21,18 @@
   "author": "JP Richardson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gertjaap/vertcoin-faucet/issues"
+    "url": "https://github.com/vertcoin-project/vertcoin-faucet/issues"
   },
-  "homepage": "https://github.com/gertjaap/vertcoin-faucet",
+  "homepage": "https://github.com/vertcoin-project/vertcoin-faucet",
   "dependencies": {
-    "bitcoinjs-lib": "^3.3.2",
+    "bitcoinjs-lib": "^5.1.7",
+    "blockbook-client": "^0.3.10",
+    "coinselect": "^3.1.12",
     "express": "^4.12.3",
-    "qrcode": "^1.2.0",
-    "request": "^2.83.0"
+    "qrcode": "^1.2.0"
   },
   "bin": {
-    "bitcoin-faucet": "./index.js"
+    "vertcoin-faucet": "./index.js"
   },
   "preferGlobal": true
 }
